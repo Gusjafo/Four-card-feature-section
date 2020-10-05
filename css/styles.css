@@ -1,0 +1,113 @@
+html {
+  text-align: center;
+  margin: 4% 8% 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  background-color: #fafafa;
+  /* background-color: yellow; */
+  opacity: 0.7;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  text-align: left;
+  padding: 28px 28px 5px;
+  margin: 0;
+  font-size: 1rem;
+}
+
+p {
+  text-align: left;
+  padding: 0 30px 0 28px;
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+.light {
+  font-weight: 200;
+}
+
+.description {
+  padding: 0 32% 1%;
+  font-size: 0.8rem;
+}
+
+.strong {
+  font-weight: 600;
+}
+
+.col {
+  float: left;
+  width: 33.3%;
+  /* margin: auto 5%; */
+}
+
+.box {
+  width: 92%;
+  height: 200px;
+  background-color: #fff;
+  margin: 8% 4%;
+  border-top: 5px solid;
+  border-top-right-radius: 2%;
+  border-top-left-radius: 2%;
+  box-shadow: 0 5px 14px 2px rgba(0,0,0,0.15);
+}
+
+.cyan {
+  border-color: cyan;
+}
+
+.red {
+  border-color: red;
+}
+
+.orange {
+  border-color: orange;
+}
+
+.blue {
+  border-color: blue;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.only {
+  margin-top: 42%;
+}
+
+.imagen {
+  padding: 20px 0 0 60%;
+}
+
+.attribution {
+  padding: 15px 20% 0;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* For mobile phones: */
+  .col {
+    width: 100%;
+  }
+
+  .only {
+    margin-top: auto;
+    margin-bottom: 0;
+  }
+
+  .description {
+    padding: 2% 0;
+  }
+
+}
